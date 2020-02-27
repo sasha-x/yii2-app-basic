@@ -1,0 +1,11 @@
+{
+    "package": {
+        "name": "sasha-x/yii2-app-lite",
+        "version": "1.0.0",
+        "source": {
+          "url": "https://github.com/sasha-x/yii2-app-lite.git",
+          "type": "git",
+          "reference": "master"
+        }
+    }
+}
