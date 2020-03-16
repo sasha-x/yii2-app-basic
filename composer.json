@@ -38,6 +38,12 @@
             ]
         },
         "yii\\composer\\Installer::postInstall": {
+            "copyFiles": [
+                {
+                    "config/env-local.php.sample": "config/env-local.php",
+                    "config/db-local.php.sample": "config/db-local.php"
+                }
+            ],
             "generateCookieValidationKey": [
                 "config/web.php"
             ]
