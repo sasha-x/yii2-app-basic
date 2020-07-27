@@ -3,6 +3,7 @@
     "description": "Yii 2 Lite Project Template",
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.6.0",
         "yiisoft/yii2": "~2.0.14",
@@ -16,7 +17,8 @@
         "process-timeout": 1800,
         "fxp-asset": {
             "enabled": false
-        }
+        },
+        "optimize-autoloader": true
     },
     "scripts": {
         "post-install-cmd": [
